@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource changed remote add note');
+  res.send('respond with a resource changed remote branch dev-1');
 });
 
 module.exports = router;
